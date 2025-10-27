@@ -4,3 +4,5 @@ pela linha de comando -> git add NomeDoArquivo ou .(se houer mais de um arquivo)
 git commit -m"mensagem do commit entre aspas"
 
 git push para enviar para o GitHub
+
+git status para ver os status que os arquivos se encontram
