@@ -1,0 +1,6 @@
+git add para adicionar os arquivos no "stage changes"
+pela linha de comando -> git add NomeDoArquivo ou .(se houer mais de um arquivo)
+
+git commit -m"mensagem do commit entre aspas"
+
+git push para enviar para o GitHub
