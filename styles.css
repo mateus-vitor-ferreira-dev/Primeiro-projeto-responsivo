@@ -70,7 +70,7 @@ p {
 }
 
 .button-main:hover {
-    opacity: .8;
+    opacity: 0.8;
 }
 
 .button-main:active {
