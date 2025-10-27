@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Oswald', sans-serif;
+}
+
+.wrapper {
+    height: 100vh;
+    width: 100vw;
+}
+
+.container-left {
+    display: inline-block;
+    width: 60%;
+    margin-top: 15%;
+    padding: 136px; 
+}
+
+/*rgba é o rgb com opacidade*/
+.container-right {
+    display: inline-block;
+    background-color: rgba(93,93,125, 0.16);
+    height: 100vh;
+    width: 40vw;
+    position: absolute;
+}
+
+.girl-cellphone {
+    position: relative;
+    top: 25%;
+    right: 18.5%;
+}
+
+h1 {
+    font-weight: 400;
+    font-size: 70px;
+    line-height: 80px;
+    color: #5d5d7d;
+    opacity: 0.3;
+    width: 368px;
+}
+
+/*no margin com 2 valores, o primeiro
+é para cima/baixo e o segundo para os lados*/
+p {
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 48px;
+    color: #5d5d7d;
+    opacity: 0.6;
+    margin: 15px 0;
+    width: 550px;   
+}
+
+.button-main {
+    width: 269px;
+    height: 62px;
+    background-color: #9499EA;
+    box-shadow: 0px 10px 24px rgba(148, 153, 234, 0.0979959);
+    color: #FFFFFF;
+    font-size: 24px;
+    line-height: 36px;
+    text-align: center;
+    border-radius: 30px;
+    border: none;
+    cursor: pointer;
+}
+
+.button-main:hover {
+    opacity: 0.8;
+}
+
+.button-main:active {
+    opacity: 0.5;
+}
+
+header {
+    color: #5D5D7D;
+    margin: 24px 0 0 57px;
+    font-size: 24px;
+}
+
+a:nth-child(2) {
+    opacity: 0.5;
+}
+
+a:hover {
+    opacity: 0.4;
+}
+
+a:active {
+    opacity: 0.8;
+}
+
+@media screen and (max-width: 900px) {
+    .container-left {
+        width: 100%;
+        height: 50%;
+        padding: 0;
+        margin: 0;
+    }
+
+    .container-right {
+        display: block;
+        height: auto;
+        width: 100%;
+        position: static;
+        padding: 40px;
+    }
+
+    .girl-cellphone {
+        position: static;
+        max-width: 90%;        
+    }
+
+    header {
+        display: none;
+    }
+
+    h1 {
+        font-size: 36px;
+        line-height: 52px;
+        width: auto;
+        margin: 58px 50px 0 50px;
+        text-align: center;
+    }
+
+    p {
+        margin: 15px 40px;
+        width: auto;
+        text-align: center;
+        font-size: 14px;
+        line-height: 24px;
+    }
+
+    /*Centralizando o elemento que não é texto
+    OBS: Só funciona com display-block;*/
+    .button-main {
+        display: block;
+        margin: 0 auto;
+    }
+}
+
+
+
+
+
