@@ -6,3 +6,6 @@ git commit -m"mensagem do commit entre aspas"
 git push para enviar para o GitHub
 
 git status para ver os status que os arquivos se encontram
+
+branches -> Um branch é como uma linha do tempo separada dentro do seu projeto.
+Ele permite que você trabalhe em algo novo (como uma funcionalidade, correção ou experimento) sem mexer no código principal.
